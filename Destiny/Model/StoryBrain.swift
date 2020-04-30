@@ -1,10 +1,3 @@
-//
-//  StoryBrain.swift
-//  Destini-iOS13
-//
-//  Created by Angela Yu on 08/08/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
-//
 
 import Foundation
 
@@ -53,6 +46,12 @@ struct StoryBrain {
         }else{
             storyNumber = currentStory.choice2Destination
         }
+//        print(storyNumber)
+//        
+//        if storyNumber == 0{
+//            print("here")
+//            return "The End"
+//        }
         
         return stories[storyNumber].title
         
